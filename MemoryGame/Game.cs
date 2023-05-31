@@ -11,7 +11,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace MemoryGame
 {
-    public partial class Form1 : Form
+    public partial class Game : Form
     {
         Random random = new Random();
 
@@ -26,7 +26,7 @@ namespace MemoryGame
 
         private int cellsPairClicked = 0;
 
-        public Form1()
+        public Game()
         {
             InitializeComponent();
             InitializeIconsToSquares();
